@@ -1,0 +1,15 @@
+{
+    "name": "megafonapp.turrbor",
+    "description": "Simple webapp for MegaFon users",
+    "architecture": "all",
+    "title": "MegaFon",
+    "hooks": {
+        "megafonapp": {
+            "apparmor": "megafonapp.apparmor",
+            "desktop":  "megafonapp.desktop"
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Al Pakh <turrbor@gmail.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}

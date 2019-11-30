@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=MegaFon
+Exec=webapp-container --app-id="megafonapp.turrbor" --user-agent-string='Mozilla/5.0 (Linux; Android 8.0.0; Pixel Build/OPR3.170623.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36' --store-session-cookies --multisample --gles --disable-gpu https://lk.megafon.ru
+Icon=assets/icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
