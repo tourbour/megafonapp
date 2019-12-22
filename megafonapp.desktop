@@ -2,7 +2,7 @@
 Name=MegaFon
 Comment= Simple webapp for MegaFon users
 Type=Application
-Icon=megafonapp.png
+Icon=assets/icon.png
 Exec=webapp-container --store-session-cookies --enable-media-hub-audio --user-agent-string="Firefox\67.0" --webappUrlPatterns=https?://lk.megafon.ru/* https://lk.megafon.ru
 Terminal=false
 X-Ubuntu-Touch=true
