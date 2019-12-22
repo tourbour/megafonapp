@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=MegaFon
-Exec=webapp-container --app-id="megafonapp.turrbor" --user-agent-string='Mozilla/5.0 (Linux; Android 8.0.0; Pixel Build/OPR3.170623.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36' --store-session-cookies --multisample --gles --disable-gpu https://lk.megafon.ru
-Icon=assets/icon.png
-Terminal=false
+Comment= Simple webapp for MegaFon users
 Type=Application
+Icon=megafonapp.png
+Exec=webapp-container --store-session-cookies --enable-media-hub-audio --user-agent-string="Firefox\67.0" --webappUrlPatterns=https?://lk.megafon.ru/* https://lk.megafon.ru
+Terminal=false
 X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#00b956
